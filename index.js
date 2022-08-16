@@ -101,7 +101,7 @@ fetch("https://jsonplaceholder.typicode.com/posts/1", {
 
 // DELETE
 // es un método que borra un registro de una base de datos
-// este método solo precisa de un header, no de un body
+// este método solo precisa que se aclare el method
 
 fetch ("https://jsonplaceholder.typicode.com/posts/4", {
     method: "DELETE",
